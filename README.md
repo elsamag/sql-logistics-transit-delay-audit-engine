@@ -46,11 +46,11 @@ WHERE route_code = 'US-West';
 - **Execution Speed:** 1.2ms
 - **Peak Transit Delay:** **48.50 Hours**
 
-```
 | Corridor Code | Evaluated Records | Calculated Peak Delay (Hours) | SLA Status |
 | :--- | :--- | :--- | :--- |
 | `US-West` | 142,500 | **48.50** | **CRITICAL SLA BREACH** |
 
+```text
 [LOG 2026-08-10 17:37:00] Initializing Corridor Delay Audit Engine...
 [LOG 2026-08-10 17:37:00] Filtering Route: 'US-West' | Index Scan Active
 [LOG 2026-08-10 17:37:00] Aggregate MAX(delay_hours) evaluated across 142,500 records.
@@ -62,14 +62,14 @@ WHERE route_code = 'US-West';
 
 ```text
 sql-logistics-transit-delay-audit-engine/
-├── README.md                 # Primary GitHub Landing Page
-├── README.html               # Raw Source HTML Template
+├── README.md                  
+├── README.html                
 ├── docs/
-│   └── README.pdf            # Executive Case Study PDF
+│   └── README.pdf              
 ├── src/
-│   └── kpi_transit_delay.sql # Production SQL Query
+│   └── kpi_transit_delay.sql  
 └── benchmarks/
-    └── execution_log.txt     # Empirical Performance Metrics
+    └── execution_log.txt     
 ```
 
 ##  Step-by-Step Deployment & Execution Guide
