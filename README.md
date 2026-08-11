@@ -57,3 +57,50 @@ WHERE route_code = 'US-West';
 [LOG 2026-08-10 17:37:00] Peak Value Extracted: 48.50 Hours | Query Time: 1.2ms
 [SUCCESS] Execution complete. Result exported to Executive Dashboard.
 ```
+
+##  Repository Structure & Directory Layout
+
+```text
+sql-logistics-transit-delay-audit-engine/
+├── README.md                 # Primary GitHub Landing Page
+├── README.html               # Raw Source HTML Template
+├── docs/
+│   └── README.pdf            # Executive Case Study PDF
+├── src/
+│   └── kpi_transit_delay.sql # Production SQL Query
+└── benchmarks/
+    └── execution_log.txt     # Empirical Performance Metrics
+```
+
+##  Step-by-Step Deployment & Execution Guide
+
+### Step 1:Clone repository from Elsamag GitHub
+```bash
+git clone https://github.com/Elsamag/sql-logistics-transit-delay-audit-engine.git)
+```
+### Step 2:Navigate to sql directory
+```bash
+cd sql-logistics-transit-delay-audit-engine
+```
+### Step 3:Execute SQL audit script in target PostgreSQL environment
+```bash
+psql -U postgres -d logistics_db -f src/kpi_transit_delay.sql
+```
+
+---
+
+> ### 💼 Enterprise Consultation & Retainer Inquiries
+>
+> **Need Custom Database Optimization & Analytics Infrastructure?**
+> 
+> **Elsamag IT Solutions** provides enterprise database optimization, automated reporting pipeline design, and high-performance SQL query tuning.
+>
+> * **Lead Technical Consultant:** Samuel Chinwendu Agu
+> * **GitHub Profile:** [github.com/Elsamag](https://github.com/Elsamag)
+> * **Direct Engagement:** Reach out via GitHub or Upwork for retainer inquiries, custom architecture audits, and database optimization contracts.
+
+
+> ### ⭐ Support & Feedback
+> If this project or repository helped you optimize your infrastructure or solve a technical bottleneck, please give it a **Star (⭐)** on GitHub!
+> 
+> Follow **[Samuel Chinwendu Agu (@Elsamag)](https://github.com/Elsamag)** for upcoming open-source enterprise analytics, cybersecurity, and data engineering tools.
