@@ -1,0 +1,10 @@
+shipment_id,route_code,origin,destination,delay_hours,status
+SHP-1001,US-West,Seattle,Los Angeles,12.5,Delivered
+SHP-1002,US-West,Portland,San Diego,48.5,SLA_Breach
+SHP-1003,US-East,New York,Miami,5.0,Delivered
+SHP-1004,US-West,San Francisco,Phoenix,24.0,Delayed
+SHP-1005,US-Central,Chicago,Dallas,2.0,Delivered
+SHP-1006,US-West,Sacramento,Seattle,18.0,Delayed
+SHP-1007,US-East,Boston,Atlanta,1.5,Delivered
+SHP-1008,US-West,Las Vegas,Salt Lake City,31.2,SLA_Breach
+  
