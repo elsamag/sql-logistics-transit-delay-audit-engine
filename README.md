@@ -50,9 +50,7 @@ WHERE route_code = 'US-West';
 | Corridor Code | Evaluated Records | Calculated Peak Delay (Hours) | SLA Status |
 | :--- | :--- | :--- | :--- |
 | `US-West` | 142,500 | **48.50** | **CRITICAL SLA BREACH** |
-```
 
-```
 [LOG 2026-08-10 17:37:00] Initializing Corridor Delay Audit Engine...
 [LOG 2026-08-10 17:37:00] Filtering Route: 'US-West' | Index Scan Active
 [LOG 2026-08-10 17:37:00] Aggregate MAX(delay_hours) evaluated across 142,500 records.
